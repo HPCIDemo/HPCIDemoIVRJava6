@@ -50,7 +50,8 @@ Using Eclipse:
 6. Enter the session key, enter the credit card and enter the cvv.
 7. Press the Update Progress button which if everything went well, will automatically fill the token in the form.
 8. Fill in the rest of the required information.
-9. Press Process Payment button
+9. Press Process Payment button.
+10. Results will be displayed at the bottom of the page.
 
 Contacts
 =========
