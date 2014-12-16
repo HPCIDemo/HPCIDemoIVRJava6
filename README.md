@@ -53,7 +53,7 @@ Using Eclipse:
 9. Press Process Payment button
 
 Contacts
-————————
+=========
 HostedPCI Inc.
 http://www.hostedpci.com/
 sales@hostedpci.com
