@@ -40,10 +40,10 @@ Installation
 There are 2 methods of running it:
 Using RunJettyRun plugin within Eclipse, or using JettyRunner.jar and HPCIDemoIVRJava6.jar from 
 terminal/command prompt.
-
 Using Eclipse:
-1. Set RunJettyRun to be assosiated with HPCIDemoIVRJava6 and set it to the desired port (I.E 8799)
-2. Run using Jetty
+==============
+1. Set RunJettyRun to be assosiated with HPCIDemoIVRJava6 and set it to the desired port (I.E 8799).
+2. Run using Jetty.
 3. Open your browser and go to http://localhost:8799/index.jsp
 4. Press on Create Session button, a session key will show up.
 5. Call the HostedPCI IVR (you get the number from HostedPCI).
@@ -54,6 +54,7 @@ Using Eclipse:
 10. Results will be displayed at the bottom of the page.
 
 Using Jetty Runner:
+===================
 1. Download HPCIDemoIVRJava6.war and Jetty-runner.jar.
 2. Open the terminal/command prompt and go to the folder where both files are.
 3. Type “java -jar jetty-runner.jar --stats unsecure --log yyyy_mm_dd-requests.log --port 8799 --out yyyy_mm_dd-output.txt HPCDemoIVRJava6.war”
