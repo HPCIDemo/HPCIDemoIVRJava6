@@ -283,25 +283,26 @@ fieldset legend {
 						<fieldset>
 							<legend>Credit Card Information</legend>
 							<div class="row">
-								<div class="col-md-6">
+								<div class="col-xs-6 col-sm-5 col-md-5">
 									<label>Credit Card Token</label><br />
 									<input id="ccToken" type="text" name="ccToken" placeholder="Automatically Filled">
 								</div>
-								<div class="col-md-6">
+								<div class="col-xs-6 col-sm-5 col-md-5">
 									<label>CVV Token</label><br />
 									<input id="cvvToken" type="text" name="cvvToken" placeholder="Automatically Filled">
 								</div>
 							</div>
 							<br />
 							<div class="row">
-								<div class="col-md-3">
+								<div class="col-xs-5 col-sm-4 col-md-4">
 									<label>Expiry MM/YY</label>
 								</div>
-								<div class="col-md-2">
+							</div>
+							<div class="row">
+								<div class="col-xs-2 col-sm-2 col-md-2">
 									<input id="expiryMonth" type="text" name="expiryMonth" size="3" placeholder="MM">
 								</div>
-								
-								<div class="col-md-2">
+								<div class="col-xs-2 col-sm-2 col-md-2">
 									<input id="expiryYear" type="text" name="expiryYear" size="3" placeholder="YY">
 								</div>
 							</div>
@@ -425,10 +426,10 @@ fieldset legend {
 							</div>
 							
 							<div class="row">
-								<div class="col-xs-4 col-sm-3 col-md-4">
+								<div class="col-xs-6 col-sm-3 col-md-4">
 									<button id="processPaymentButton" type="button" value="Process Payment" class="btn btn-primary" disabled>Process Payment</button><br />
 								</div>
-								<div class="col-xs-4 col-sm-3 col-md-4">
+								<div class="col-xs-6 col-sm-3 col-md-4">
 									<button id="paymentResetButton" type="button" value="Reset Payment" class="btn btn-primary" disabled>Reset Payment</button><br />
 								</div>
 							</div>
