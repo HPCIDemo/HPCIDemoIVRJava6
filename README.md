@@ -1,4 +1,4 @@
-HPCIDemoIVRJava6 Dec 16 2014
+HPCIDemoIVRJava6 v1.0 Dec 16 2014
 ================
 
 HostedPCI Demo IVR Implementation for Phone Session Service
@@ -57,7 +57,7 @@ Using Jetty Runner:
 ===================
 1. Download HPCIDemoIVRJava6.war and Jetty-runner.jar.
 2. Open the terminal/command prompt and go to the folder where both files are.
-3. Type “java -jar jetty-runner.jar --stats unsecure --log yyyy_mm_dd-requests.log --port 8799 --out yyyy_mm_dd-output.txt HPCDemoIVRJava6.war”
+3. Type “java -jar jetty-runner.jar --stats unsecure --log yyyy_mm_dd-requests.log --port 8799 --out yyyy_mm_dd-output.txt HPCIDemoIVRJava6.war”
 4. If everything went well, you should see something like this and a blinking cursor afterwards:
 2014-10-08 10:33:36.843:INFO::main: Logging initialized @71ms
 2014-10-08 10:33:36.848:INFO:oejr.Runner:main: Runner
